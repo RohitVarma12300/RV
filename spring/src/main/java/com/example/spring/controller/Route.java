@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 
 //controller , service , repository ,entity
 
-
+@CrossOrigin(origins = "*")
 @RestController
 public class Route {
     // when anyone comes to our website that is localhost -> localhost:8080/
